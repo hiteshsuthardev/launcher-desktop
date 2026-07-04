@@ -1,0 +1,367 @@
+/* MainWindow Styles */
+QMainWindow {
+    background-color: #0a0b0d;
+}
+
+#contentPanel {
+    background-color: transparent;
+}
+
+#appTitle {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI Variable', 'Segoe UI', 'Inter', sans-serif;
+}
+
+/* Section Title */
+#sectionTitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+    margin-bottom: 5px;
+}
+
+/* Custom Title Bar */
+#titleBar {
+    background-color: #07080a;
+    border-bottom: 1px solid #161921;
+}
+
+#titleBarText {
+    color: #9ca3af;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+.TitleBarBtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    min-width: 45px;
+    min-height: 35px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.TitleBarBtn:hover {
+    background-color: #1a202c;
+    color: #ffffff;
+}
+
+#btnClose:hover {
+    background-color: #ef4444;
+    color: #ffffff;
+}
+
+/* Left Panel & Grid Scroll Area */
+#leftPanel {
+    background-color: transparent;
+}
+
+#gridScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+#scrollContent {
+    background-color: transparent;
+}
+
+/* App Tile normal card */
+#AppTile, #AddTile {
+    background-color: #151821;
+    border: 2px solid #232a3b;
+    border-radius: 16px;
+}
+
+#AddTile {
+    border: 2px dashed #35405a;
+    background-color: rgba(21, 24, 33, 0.4);
+}
+
+#tileName {
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+#tileIcon {
+    color: #ffffff;
+}
+
+/* Quick Settings Sidebar Panel */
+#sidebarPanel {
+    background-color: rgba(22, 25, 34, 0.65);
+    border: 1.5px solid #232a3b;
+    border-radius: 20px;
+}
+
+.sidebarSection {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.sidebarSectionTitle {
+    color: #4da6ff;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI Variable', sans-serif;
+    text-transform: uppercase;
+}
+
+.sliderLabel {
+    color: #9ca3af;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI Variable', sans-serif;
+}
+
+/* Glowing Custom QSlider Styling */
+QSlider::groove:horizontal {
+    border: none;
+    height: 6px;
+    background: #1b202c;
+    border-radius: 3px;
+}
+
+QSlider::sub-page:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4da6ff, stop:1 #14e8b0);
+    border-radius: 3px;
+}
+
+QSlider::add-page:horizontal {
+    background: #1b202c;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: #ffffff;
+    border: 2px solid #4da6ff;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 7px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: #4da6ff;
+    border-color: #ffffff;
+}
+
+/* Media buttons row */
+.MediaBtn {
+    background-color: #1a1e29;
+    color: #ffffff;
+    border: 1.5px solid #232a3b;
+    border-radius: 18px;
+    min-width: 36px;
+    min-height: 36px;
+    max-width: 36px;
+    max-height: 36px;
+    font-size: 14px;
+}
+
+.MediaBtn:hover {
+    background-color: #262e3f;
+    border-color: #4da6ff;
+    color: #ffffff;
+}
+
+.MediaBtn:pressed {
+    background-color: #11141c;
+}
+
+/* Power & Utility grid buttons */
+.PowerGridBtn {
+    background-color: #151821;
+    color: #e5e7eb;
+    border: 1.5px solid #232a3b;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI Variable', sans-serif;
+    min-height: 40px;
+}
+
+.PowerGridBtn:hover {
+    background-color: rgba(239, 68, 68, 0.08);
+    border-color: #ef4444;
+    color: #ffffff;
+}
+
+.PowerGridBtn[action="lock_screen"]:hover {
+    background-color: rgba(77, 166, 255, 0.08);
+    border-color: #4da6ff;
+    color: #ffffff;
+}
+
+.PowerGridBtn[action="wifi_toggle"]:hover {
+    background-color: rgba(20, 232, 176, 0.08);
+    border-color: #14e8b0;
+    color: #ffffff;
+}
+
+/* Pairing Code Widget */
+#pairingContainer {
+    background-color: #13161f;
+    border: 1px solid #232a3b;
+    border-radius: 20px;
+    padding: 2px 6px;
+}
+
+#pairingLabel {
+    color: #9ca3af;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+/* Dialogs */
+QDialog {
+    background-color: #10121a;
+    border: 1px solid #232a3b;
+    border-radius: 16px;
+}
+
+#dialogTitle {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+QDialog QLabel {
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+QDialog QLineEdit {
+    background-color: #161922;
+    color: #ffffff;
+    border: 1px solid #232a3b;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+QDialog QLineEdit:focus {
+    border: 2px solid #4da6ff;
+    background-color: #1a1e2a;
+}
+
+/* Buttons */
+.PrimaryBtn {
+    background-color: #4da6ff;
+    color: #0a0b0d;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+.PrimaryBtn:hover {
+    background-color: #6eb7ff;
+}
+
+.PrimaryBtn:pressed {
+    background-color: #3b8ee0;
+}
+
+.SecondaryBtn {
+    background-color: transparent;
+    color: #e5e7eb;
+    border: 1px solid #35405a;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+.SecondaryBtn:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: #4b5563;
+}
+
+.SecondaryBtn:pressed {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Scrollbar */
+QScrollBar:vertical {
+    background-color: transparent;
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #232a3b;
+    min-height: 30px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #4da6ff;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background-color: transparent;
+}
+
+/* Custom Dropdown QComboBox Styling */
+QDialog QComboBox {
+    background-color: #161922;
+    color: #ffffff;
+    border: 1px solid #232a3b;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
+}
+
+QDialog QComboBox:focus {
+    border: 2px solid #4da6ff;
+    background-color: #1a1e2a;
+}
+
+QDialog QComboBox::drop-down {
+    border: none;
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+}
+
+QDialog QComboBox::down-arrow {
+    image: none;
+    border-top: 5px solid #9ca3af;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-right: 12px;
+}
+
+QDialog QComboBox QAbstractItemView {
+    background-color: #161922;
+    color: #ffffff;
+    border: 1px solid #232a3b;
+    selection-background-color: #232a3b;
+    selection-color: #ffffff;
+    outline: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}

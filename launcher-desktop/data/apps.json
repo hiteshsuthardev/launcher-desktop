@@ -1,0 +1,98 @@
+[
+    {
+        "id": "5b9a819e-ede8-4ed6-b725-525d7a285e45",
+        "name": "Termius",
+        "exe_path": "C:/Users/hites/AppData/Local/Programs/Termius/Termius.exe",
+        "icon_path": "icons/5b9a819e-ede8-4ed6-b725-525d7a285e45.png"
+    },
+    {
+        "id": "096cc684-49c5-421b-975c-dbbf4afe7118",
+        "name": "Postman",
+        "exe_path": "C:/Users/hites/AppData/Local/Postman/Postman.exe",
+        "icon_path": "icons/096cc684-49c5-421b-975c-dbbf4afe7118.png"
+    },
+    {
+        "id": "a1ee9ae0-fae8-4d63-b46f-c2021ab7616b",
+        "name": "dbngin-go",
+        "exe_path": "C:/Users/hites/AppData/Roaming/DBngin/dbngin-go.exe",
+        "icon_path": "icons/a1ee9ae0-fae8-4d63-b46f-c2021ab7616b.png"
+    },
+    {
+        "id": "85889fee-f071-4651-9b42-75f8d3b5aeba",
+        "name": "MailHog",
+        "exe_path": "C:/Users/hites/Desktop/MailHog_windows_amd64.exe",
+        "icon_path": "icons/85889fee-f071-4651-9b42-75f8d3b5aeba.png"
+    },
+    {
+        "id": "8aa2f5dc-baa9-44ca-b10f-b7f67fe3591e",
+        "name": "Code",
+        "exe_path": "C:/Users/hites/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+        "icon_path": "icons/8aa2f5dc-baa9-44ca-b10f-b7f67fe3591e.png"
+    },
+    {
+        "id": "0f9505c6-8aab-424d-92d6-4fe63de1ed0f",
+        "name": "Herd",
+        "exe_path": "C:/Program Files/Herd/Herd.exe",
+        "icon_path": "icons/0f9505c6-8aab-424d-92d6-4fe63de1ed0f.png"
+    },
+    {
+        "id": "1421d403-50ac-4208-9f3f-284eaa855276",
+        "name": "OBS",
+        "exe_path": "C:/Program Files/obs-studio/bin/64bit/obs64.exe",
+        "icon_path": "icons/1421d403-50ac-4208-9f3f-284eaa855276.png"
+    },
+    {
+        "id": "a27d6962-7c01-4030-b173-7add00812df1",
+        "name": "AnyDesk",
+        "exe_path": "C:/Program Files (x86)/AnyDesk/AnyDesk.exe",
+        "icon_path": "icons/a27d6962-7c01-4030-b173-7add00812df1.png"
+    },
+    {
+        "id": "eab82ae7-e8d6-40fa-80cd-9566646823f3",
+        "name": "steam",
+        "exe_path": "C:/Program Files (x86)/Steam/steam.exe",
+        "icon_path": "icons/eab82ae7-e8d6-40fa-80cd-9566646823f3.png"
+    },
+    {
+        "id": "b13f6e47-c2b6-4be0-938c-f66f07c5f7f1",
+        "name": "Excel",
+        "exe_path": "C:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE",
+        "icon_path": "icons/b13f6e47-c2b6-4be0-938c-f66f07c5f7f1.png"
+    },
+    {
+        "id": "41708374-6319-433d-a2b3-71737776b316",
+        "name": "Antigravity",
+        "exe_path": "C:/Users/hites/AppData/Local/Programs/Antigravity/Antigravity.exe",
+        "icon_path": "icons/41708374-6319-433d-a2b3-71737776b316.png"
+    },
+    {
+        "id": "3f848d09-5a3a-4e2f-ae7b-39a7a191be72",
+        "name": "Android Studio",
+        "exe_path": "C:/Program Files/Android/Android Studio/bin/studio64.exe",
+        "icon_path": "icons/3f848d09-5a3a-4e2f-ae7b-39a7a191be72.png"
+    },
+    {
+        "id": "0e075396-4324-40b5-8a80-d992809e0b9d",
+        "name": "Brave",
+        "exe_path": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe",
+        "icon_path": "icons/0e075396-4324-40b5-8a80-d992809e0b9d.png"
+    },
+    {
+        "id": "e568e5e5-63a3-4d01-9fb8-b8c4b18e4cec",
+        "name": "Google Chrome",
+        "exe_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+        "icon_path": "icons/e568e5e5-63a3-4d01-9fb8-b8c4b18e4cec.png"
+    },
+    {
+        "id": "379b6507-ccfd-4d50-9449-66790ae0806e",
+        "name": "PhpStorm 2026.1.2",
+        "exe_path": "C:/Program Files/JetBrains/PhpStorm 2026.1.2/bin/phpstorm64.exe",
+        "icon_path": "icons/379b6507-ccfd-4d50-9449-66790ae0806e.png"
+    },
+    {
+        "id": "e8978413-90ee-4bc2-ae76-cac4ce352a3c",
+        "name": "TablePlus",
+        "exe_path": "C:/Program Files/TablePlus/TablePlus.exe",
+        "icon_path": "icons/e8978413-90ee-4bc2-ae76-cac4ce352a3c.png"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "15bedc09-c4f8-4d33-8444-636b50964b34": {
+        "name": "Android Client",
+        "token": "9609009d-c864-4a37-a9d4-fff941052eba",
+        "paired_time": 1782925693.3755434,
+        "last_connected": 1782925733.5662792
+    },
+    "a6ffc563-2c85-4cdf-8ee2-23e4b5b3e5c4": {
+        "name": "Android Client",
+        "token": "4e9b22a1-2365-4dd9-b544-182b383cb237",
+        "paired_time": 1783144154.2268193,
+        "last_connected": 1783146882.0325918
+    },
+    "1b874a2b-d9d8-46cb-8b89-aaa2c36ffa8a": {
+        "name": "Android Client",
+        "token": "3cd48bf0-09c1-4e1a-96fe-f7a19b77b9c0",
+        "paired_time": 1783146953.7613027,
+        "last_connected": 1783147675.9656868
+    }
+}
